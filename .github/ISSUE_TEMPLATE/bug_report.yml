@@ -1,0 +1,26 @@
+name: "🖥️ 🐛 Bug Report"
+description: Create a report to help track down and fix a bug.
+title: "🐛: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: bug-details
+    attributes:
+      label: Bug Details
+      description: Please provide as much detail as possible.
+      value: |
+        ### 💥 Actual Behaviour
+        (A clear and concise description of what the bug is)
+
+        ### 🎯 Expected Behaviour
+        (What you expected to happen instead)
+
+        ### 📝 Steps to Reproduce
+        1. 
+        2. 
+
+        ### ⚙️ Context / Environment
+        (Paste any relevant logs, or file contents here)
+      render: markdown
+    validations:
+      required: true

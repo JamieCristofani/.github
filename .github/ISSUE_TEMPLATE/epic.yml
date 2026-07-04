@@ -1,0 +1,20 @@
+name: "🖥️ 👑 Epic"
+description: "A large feature or initiative that contains multiple stories/tasks."
+title: "👑: "
+labels: ["epic"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Epic Description
+      description: "Describe the overall goal of this epic. What large piece of functionality are we trying to build?"
+      placeholder: "e.g., Implement a full end-to-end AI-based image culling workflow."
+    validations:
+      required: true
+  - type: textarea
+    id: stories
+    attributes:
+      label: Stories & Tasks
+      description: "List the stories or tasks that are part of this epic. You can create them later and link them here."
+      value: |
+        - #

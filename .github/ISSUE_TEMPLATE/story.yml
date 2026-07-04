@@ -1,0 +1,34 @@
+name: "🖥️ 📖 Story"
+description: "A user story or feature that delivers a piece of value."
+title: "📖: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Story Description
+      description: "Describe the story using the 'As a [User/Dev], I want [thing], so that [benefit]' format if possible."
+      placeholder: "As a [User/Dev], I want [some goal], so that [some reason]."
+    validations:
+      required: true
+  - type: dropdown
+    id: story_size
+    attributes:
+      label: Story Size / Complexity
+      description: How large do you estimate this story to be? (Optional)
+      options:
+        - "🟢 Small (A few hours)"
+        - "🟡 Medium (1-2 days)"
+        - "🔴 Large (Multiple days)"
+    validations:
+      required: false
+  - type: textarea
+    id: checklist
+    attributes:
+      label: Definition of Done
+      description: Standard checks to ensure quality before closing this issue. (Optional)
+      value: |
+        - [ ] Logic implemented
+        - [ ] Added to orchestrator (if applicable)
+        - [ ] Unit tests written
+        - [ ] Integration tests pass
