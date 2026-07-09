@@ -4,14 +4,11 @@ about: A user story or feature that delivers a piece of value.
 title: "📖: "
 labels: ["enhancement"]
 ---
-
 ### Story Description
-
 <!-- Describe the story using the 'As a [User/Dev], I want [thing], so that [benefit]' format if possible.
 e.g., As a [User/Dev], I want [some goal], so that [some reason]. -->
 
 ### Story Size / Complexity
-
 <!-- How large do you estimate this story to be? (Optional)
 - 🟢 Small (A few hours)
 - 🟡 Medium (1-2 days)
@@ -19,7 +16,6 @@ e.g., As a [User/Dev], I want [some goal], so that [some reason]. -->
 -->
 
 ### Definition of Done
-
 - [ ] Logic implemented
 - [ ] Unit tests written
 - [ ] Integrated with project
