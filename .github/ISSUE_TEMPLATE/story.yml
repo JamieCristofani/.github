@@ -29,6 +29,6 @@ body:
       description: Standard checks to ensure quality before closing this issue. (Optional)
       value: |
         - [ ] Logic implemented
-        - [ ] Added to orchestrator (if applicable)
         - [ ] Unit tests written
+        - [ ] Integrated with project
         - [ ] Integration tests pass
